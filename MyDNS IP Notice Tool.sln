@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDNS IP Notice Tool", "MyDNS IP Notice Tool\MyDNS IP Notice Tool.csproj", "{02F406BC-7766-4F65-A46B-A7AE3DE0B8C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F406BC-7766-4F65-A46B-A7AE3DE0B8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F406BC-7766-4F65-A46B-A7AE3DE0B8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F406BC-7766-4F65-A46B-A7AE3DE0B8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F406BC-7766-4F65-A46B-A7AE3DE0B8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD9931A4-5B35-4111-8C1A-6B4B706CF0F9}
+	EndGlobalSection
+EndGlobal
