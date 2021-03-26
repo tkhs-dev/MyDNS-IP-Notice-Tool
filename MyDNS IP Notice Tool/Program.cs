@@ -22,12 +22,13 @@ namespace MyDNS_IP_Notice_Tool
         {
             log4net.Config.XmlConfigurator.Configure(new FileInfo("log4net.config"));
             Config config = new Config();
-            if(!config.Load())config.Save();
-            if(config == null)
+            if (!config.Load()) config.Save();
+            if (config == null)
             {
                 _logger.Warn("Failed to  load configuration file");
             }
-            try{
+            try
+            {
                 bool success = false;
                 if (ShouldNoticeAddress())
                 {
@@ -46,7 +47,7 @@ namespace MyDNS_IP_Notice_Tool
                     }
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 _logger.Warn(e.ToString());
             }
