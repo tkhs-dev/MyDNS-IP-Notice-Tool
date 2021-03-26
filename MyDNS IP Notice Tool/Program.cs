@@ -50,6 +50,8 @@ namespace MyDNS_IP_Notice_Tool
             {
                 _logger.Warn(e.ToString());
             }
+
+            client.Dispose();
         }
 
         private static bool ShouldNoticeAddress()
