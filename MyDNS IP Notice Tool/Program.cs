@@ -22,7 +22,7 @@ namespace MyDNS_IP_Notice_Tool
         {
             log4net.Config.XmlConfigurator.Configure(new FileInfo("log4net.config"));
             Config config = new Config();
-            if (!config.Load()) config.Save();
+            config.Load();
             if (config == null)
             {
                 _logger.Warn("Failed to  load configuration file");
